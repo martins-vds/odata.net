@@ -356,7 +356,7 @@ steps:
  
 # CodeSign
 - task: EsrpCodeSigning@1
-  displayName: 'ESRP CodeSign - OData'
+  displayName: 'ESRP CodeSign-OData'
   inputs:
     ConnectedServiceName: 'ESRP CodeSigning - OData'
     #FolderPath: '$(Build.SourcesDirectory)\src\Microsoft.Spatial\bin\Debug\netstandard2.0'
